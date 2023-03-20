@@ -37,7 +37,7 @@ public class VerArchivos extends HttpServlet {
         File directory = new File(ruta);
 
         // Obtiene una lista de archivos y subdirectorios en el directorio especificado
-        File todosArchs = directory.getParentFile().getParentFile().getParentFile();
+        File todosArchs = directory.getParentFile();
         File[] files = todosArchs.listFiles();
 
         // Itera sobre cada archivo y subdirectorio en la lista y los imprime

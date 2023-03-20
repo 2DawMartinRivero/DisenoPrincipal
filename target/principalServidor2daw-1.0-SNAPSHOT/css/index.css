@@ -24,9 +24,10 @@ header{
     text-align: center;
     padding: 5px;
     text-shadow: 3px 3px 4px #b0b5b6;
-    border-bottom: 1px solid #af74b2;
     margin: 5px auto;
-    width: 80%;
+  /*  width: 80%; 
+  border-bottom: 1px solid #af74b2;
+  */
     
 }
 
@@ -66,9 +67,221 @@ a{
     font-size: 1.2em;
 }
 
+header.navbar {
+    background-color: #F09A3E;
+}
+
+.navbar span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.navbar a {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#logo {
+	cursor: pointer;
+}
+
+.colorAzulBoton {
+	background-color: #2CB4E6;
+	color: white;
+}
+
+.colorAzulBoton:hover {
+	background-color: #007099;
+	color: white;
+}
+
+.bordeAzul {
+	border: 1px solid #007099;
+}
+
 
 @media only screen and (max-width: 500px){
     li{
         width: 90%;
     }
 }
+
+            body{
+                display: flex;
+                flex-direction: column;
+            }
+            header{
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+            .navbar {
+                background-color: #F09A3E;
+            }
+
+            .navbar span {
+                vertical-align: -webkit-baseline-middle;
+            }
+
+            .navbar a {
+                font-family: 'Chakra Petch', sans-serif;
+            }
+
+            #logo {
+                    cursor: pointer;
+            }
+
+            .colorAzulBoton {
+                    background-color: #2CB4E6;
+                    color: white;
+            }
+
+            .colorAzulBoton:hover {
+                    background-color: #007099;
+                    color: white;
+            }
+
+            .bordeAzul {
+                    border: 1px solid #007099;
+            }
+            
+            .dropdown-menu{
+                left: inherit !important;
+            }
+            
+                    footer{
+            background: rgb(220, 218, 218);
+            padding: 1rem 1rem 0.5rem 1rem;
+        }
+
+            footer p {margin:0;}
+
+            footer hr {                
+                margin: 0 auto;
+            }
+
+            footer>p{
+                padding:10px;
+                text-align: center;
+            }
+
+            #info {            
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+                #logoFooter figure {
+                    width: 100%;
+                    max-width: 120px;
+                }
+
+                #logoFooter figure img {
+                    width: 100%;
+                    max-width: 150px;
+                }
+
+                #infoFooter {
+                    display: flex;
+                    flex-direction: column;                
+                }
+
+                #redes {
+                    display: flex;
+                    justify-content: space-evenly;
+                    width: 100%;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                }
+
+                #redes img {
+                    width: 2rem;
+                    max-width: 120px;
+                    padding: 0;
+                    filter: invert(50%) brightness(2);
+                    transition: all 0.5s ease;
+                }
+
+                #redes span {
+                    position: absolute;
+                    left: -9999px;
+                }
+
+                #redes a:hover img {
+                    filter: none;
+                }        
+
+                footer#acordeon {
+                    width: 235px;
+                }
+
+                footer#acordeon p{
+                    margin: 0;                
+                    text-align: left;
+                    padding-bottom:0.6rem;
+                }
+
+                footer.accordion-button{
+                    padding:0;
+                }
+        
+                main{
+                    flex-grow: 1;
+                }
+                
+                #tituloP{
+                    text-shadow: 3px 2px 3px rgba(0,0,0,0.29);
+                    font-size: 3em;
+                }
+
+                button.btnAcordeon, input.btnAcordeon{
+                    background-color: #3f73a2ba;
+                    text-align: center;
+                    color: white;
+                }
+		
+		input[type="submit"]:hover {
+			background-color: lightgray;
+		}
+                
+                div.accordion{
+                    max-width: 480px;
+                }
+                figure{
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                img.logo{
+                    object-fit: fill;
+                    width: 60px;
+                    height:60px;
+                }
+
+                .container h2{
+                    text-shadow: 3px 3px 3px #9d9d9de5;;
+                }
+        /* --- MEDIA TABLET --- */
+        @media only screen and (min-width: 450px) {
+
+        /**FOOTER**/
+            #info{
+                flex-direction: row;
+            }
+
+        }
+
+        /* --- MEDIA PC --- */
+        @media only screen and (min-width: 1000px) {
+
+        /**FOOTER**/
+
+        #infoFooter {
+            padding-left: 35rem;
+        }
+
+        footer hr {
+                width:80%;
+        }
+
+        }

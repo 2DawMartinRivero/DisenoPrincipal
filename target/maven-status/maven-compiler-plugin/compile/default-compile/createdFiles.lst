@@ -1,1 +1,8 @@
+com\daw\principalservidor2daw\DTO\Proyectos.class
+com\daw\principalservidor2daw\respaldos\RespaldoIndex.class
+com\daw\principalservidor2daw\DAO\exceptions\PreexistingEntityException.class
+com\daw\principalservidor2daw\DAO\exceptions\NonexistentEntityException.class
+com\daw\principalservidor2daw\DTO\Proyectos_.class
 com\daw\principalservidor2daw\VerArchivos.class
+com\daw\principalservidor2daw\DAO\exceptions\IllegalOrphanException.class
+com\daw\principalservidor2daw\DAO\ProyectosJpaController.class
