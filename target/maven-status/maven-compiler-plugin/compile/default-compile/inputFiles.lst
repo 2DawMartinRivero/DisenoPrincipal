@@ -1,7 +1,7 @@
-C:\Users\Usuario\Desktop\DAW\Servidores\NetBeans\principalServidor2daw\src\main\java\com\daw\principalservidor2daw\DAO\exceptions\NonexistentEntityException.java
-C:\Users\Usuario\Desktop\DAW\Servidores\NetBeans\principalServidor2daw\src\main\java\com\daw\principalservidor2daw\DAO\exceptions\PreexistingEntityException.java
-C:\Users\Usuario\Desktop\DAW\Servidores\NetBeans\principalServidor2daw\src\main\java\com\daw\principalservidor2daw\DAO\exceptions\IllegalOrphanException.java
-C:\Users\Usuario\Desktop\DAW\Servidores\NetBeans\principalServidor2daw\src\main\java\com\daw\principalservidor2daw\VerArchivos.java
-C:\Users\Usuario\Desktop\DAW\Servidores\NetBeans\principalServidor2daw\src\main\java\com\daw\principalservidor2daw\DTO\Proyectos.java
-C:\Users\Usuario\Desktop\DAW\Servidores\NetBeans\principalServidor2daw\src\main\java\com\daw\principalservidor2daw\respaldos\RespaldoIndex.java
-C:\Users\Usuario\Desktop\DAW\Servidores\NetBeans\principalServidor2daw\src\main\java\com\daw\principalservidor2daw\DAO\ProyectosJpaController.java
+C:\Users\Usuario\Desktop\DAW\PrincipalDiseno\src\main\java\com\daw\principalservidor2daw\DAO\exceptions\IllegalOrphanException.java
+C:\Users\Usuario\Desktop\DAW\PrincipalDiseno\src\main\java\com\daw\principalservidor2daw\respaldos\RespaldoIndex.java
+C:\Users\Usuario\Desktop\DAW\PrincipalDiseno\src\main\java\com\daw\principalservidor2daw\DAO\exceptions\NonexistentEntityException.java
+C:\Users\Usuario\Desktop\DAW\PrincipalDiseno\src\main\java\com\daw\principalservidor2daw\VerArchivos.java
+C:\Users\Usuario\Desktop\DAW\PrincipalDiseno\src\main\java\com\daw\principalservidor2daw\DAO\exceptions\PreexistingEntityException.java
+C:\Users\Usuario\Desktop\DAW\PrincipalDiseno\src\main\java\com\daw\principalservidor2daw\DAO\ProyectosJpaController.java
+C:\Users\Usuario\Desktop\DAW\PrincipalDiseno\src\main\java\com\daw\principalservidor2daw\DTO\Proyectos.java

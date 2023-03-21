@@ -112,6 +112,7 @@ header.navbar {
                 width: 100%;
                 padding: 0;
                 margin: 0;
+                min-width: 250px;
             }
             .navbar {
                 background-color: #F09A3E;
@@ -142,6 +143,22 @@ header.navbar {
             .bordeAzul {
                     border: 1px solid #007099;
             }
+            header nav a, header nav svg {
+                text-shadow: 1px 1px 1px black;
+            }
+
+            .bi-person-circle {
+                filter: drop-shadow(1px 1px 1px black);
+            }
+
+            header nav a:hover{
+                transform: scale(1.04);
+            }
+
+
+            #spanAdmin {
+                display: none;
+            }
             
             .dropdown-menu{
                 left: inherit !important;
@@ -167,7 +184,7 @@ header.navbar {
                 position: relative;
                 display: flex;
                 flex-direction: column;
-                align-items: center;
+                align-items: self-start;
                 justify-content: space-around;
                 flex-wrap: wrap;
             }
@@ -262,12 +279,26 @@ header.navbar {
                     text-shadow: 3px 3px 3px #9d9d9de5;;
                 }
         /* --- MEDIA TABLET --- */
+        
+    
         @media only screen and (min-width: 450px) {
+            
+            
 
         /**FOOTER**/
             #info{
                 flex-direction: row;
             }
+            
+            header nav a:last-of-type {
+                        display: flex;
+                        align-items: center;
+                }
+
+                #spanAdmin {
+                        display: block;
+                }
+            
 
         }
 
